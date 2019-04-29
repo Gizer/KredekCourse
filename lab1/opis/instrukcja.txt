@@ -1,0 +1,23 @@
+Opis:
+Jesteœ w³adc¹ królestwa które musi siê przeciwstawiæ z³ej Uczelni. Zbieraj surowce, rozbudowuj swoje budynki i poprowadŸ poddanych do dyplomu.
+W grze nie mo¿na wygraæ, mo¿na tylko przegraæ. Deficyt zawsze bêdzie narasta³. Jego dopuszczalny limit to 11. Drug¹ mo¿liwoœci¹ przegrania jest stracenie ca³ego jedzenia.
+
+Aby zdobywaæ surowce, nale¿y wybudowaæ odpowiedni do tego budynek:
+Drzewo - Tartak
+Kamieñ - Kamienio³om
+Klejnoty - Kopalnia + 10% na klejnot z kamienio³omu
+Jedzenie - Farma
+Pieni¹dze - Rozbudowa zamku
+
+Zamek posiada 4 graficzne stopnie rozwoju. Dalsze poziomy nie s¹ odzwierciedlane graficznie.
+
+Do wybudowania budynku s³u¿¹ dwa rodzaje menu, pojedyncze oraz zbuduj/zniszcz wiele. Po wybraniu budynku mo¿emy zbudowaæ go w iloœci 1 lub dowolnej wpisanej do menu zbuduj/zniszcz wiele. Wpisanie absurdalnie du¿ych liczb sprawi ¿e trzeba resetowaæ grê, poniewa¿ za ka¿dy nie mo¿liwy do zbudowania budynek (brak surowców) na ekranie zostanie wyœwietlona wiadomoœæ.
+
+W grze wystêpuj¹ negatywne zdarzenia losowe, 3 które powoduj¹ zwiêkszenie deficytu i przed którymi nie ma obrony i 2 które powoduj¹ utratê:
+a) Pieniêdzy
+b) Tartaku i Farmy
+Jednak przed dwoma ostatnimi mo¿emy siê zabezpieczyæ buduj¹c odpowiednio:
+a) Zamek na poziomie 3
+b) Zamek na poziomie 2
+
+Przycisk przyspiesz powoduje 4x przyspieszenie. Przycisk Stop/Play zatrzymuje lub wznawia soundtrack

@@ -1,0 +1,9 @@
+Rozbudowana wersja programu z pierwszych zajęć. Dodano walkę turową i możliwość wygranej.
+
+Aby uzyskać dostęp do nowej zawartości, trzeba zakupić przynajmniej jedną jednostkę. Po zakupach, klikając przycisk "Idź na egzamin" otworzy się nowe okno dialogowe obsługujące walkę turową. Celem jest pokonanie prowadzącego. Twoje jednostki znajdują się po lewej stronie pola walki, prowadzący jest po prawej stronie. Po kliknięciu na swoją jednostkę, podświetlone pola pokazują obszar ruchu postaci. W tym momencie można poruszyć jednostkę, wybrać inną jednostkę lub podjąć próbę ataku. Jeżeli cel znajduje się w zasięgu ( Zasięg: Warrior=1, Archer=5, Mage=4, MasterArcher=7 ) nastąpi atak. Poruszenie postacią lub atak kończy turę gracza.
+
+Po wygranej walce, postacie gracza awansują na kolejny poziom, zwiększając tym samym swoje statystyki. Po osiągnięciu 5 poziomu przez Archer'a awansuje on na MasterArcher'a.
+
+Każda wygrana redukuje deficyt o 1 oraz zwiększa poziom trudności kolejnej walki. Przegrana walka zwiększa deficyt o 1.
+
+Aby wygrać grę należy zdać 10 egzaminów.
