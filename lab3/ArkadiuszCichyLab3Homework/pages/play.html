@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../style/style.css" type="text/css">
+    <script type="text/javascript" src="../scripts/script.js"></script>
+    <meta charset="utf-8" />
+    <title>Cookie Clicker!</title>
+</head>
+
+<body>
+    <header>
+        <a href="info.html"><button id="info">Info</button></a>
+        <a href="play.html"><button class="active" id="play">Zagraj w grę podczas grania w grę!</button></a>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Brakło mi pomysłu na kolejną stronę, więc użyłem poprzednio zrobionej gry -->
+    <iframe id="frameGame" src="ArkadiuszCichyLab3/index.html" frameborder="0"></iframe>
+    <script>
+        document.getElementById('frameGame').style.height = document.documentElement.clientHeight - 120 + "px";
+        document.getElementById('frameGame').style.width = document.documentElement.clientWidth - 10 + "px";
+    </script>
+</body>
+
+</html>

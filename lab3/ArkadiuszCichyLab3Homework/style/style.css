@@ -1,0 +1,104 @@
+body {
+    /* Tło dla strony */
+    background-image: url("../images/bgBlue.jpg");
+    /* Kolor tekstu */
+    color: whitesmoke;
+}
+
+header {
+    /* Wycentrowanie tekstu */
+    text-align: center;
+}
+
+.left {
+    /* Do lewej */
+    float: left;
+    /* margines */
+    margin: 10px;
+}
+
+.left #cookiesAmmountText {
+    /* rozmiar czcionki */
+    font-size: 20px;
+    /* Grubość czcionki */
+    font-weight: bold;
+    text-align: center;
+}
+
+.left #cookiesIncome {
+    font-size: 10px;
+    text-align: center;
+}
+
+#parent {
+    /* Ustawianie pozycji części środkowej strony
+    Dzięki temu łatwiej było dopasować położenie elementów takich
+    jak iframe i obramowanie */
+    position: relative;
+}
+
+#frame {
+    position: absolute;
+    /* Ile od lewej ma być element */
+    left: 75%;
+    /* Zmiana ustawienia "punktu początkowego" */
+    transform: translate(-100%, 0);
+}
+
+#leftbar {
+    position: absolute;
+    /* szerokość */
+    width: 16px;
+    left: 75%;
+}
+
+#rightbar {
+    position: absolute;
+    width: 16px;
+    left: 23%;
+}
+
+.right {
+    float: right;
+    margin: 10px;
+}
+
+#info {
+    float: left;
+    background-image: url("../images/bgButton.jpg");
+    font-size: 16px;
+    /* Rozmiar guzika */
+    padding: 20px 40px;
+    color: whitesmoke;
+    /* Zaokrąglenie */
+    border-radius: 10px;
+    /* czcionka */
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#play {
+    float: right;
+    background-image: url("../images/bgButton.jpg");
+    font-size: 16px;
+    padding: 20px 40px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+/* Jaki kolor ma mieć link */
+.a:link {
+    color: whitesmoke;
+}
+
+/* Jak ma wyglądać element aktywny */
+.active {
+    filter: contrast(150%);
+}
+
+#infoText {
+    float: left;
+}
+
+#refresh {
+    float: left;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Podłączenie css i js do html -->
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <meta charset="utf-8" />
+    <!-- Tytuł okna -->
+    <title>Cookie Clicker!</title>
+</head>
+
+<body>
+    <header>
+        Twoja własna piekarnia ciasteczek!
+    </header>
+    <section class="left">
+        <div>
+            <p id="cookiesAmmountText">
+                <!-- Początkowa ilość ciastek. Ulegnie ona zmianie -->
+                0
+            </p>
+            <p id="cookiesIncome">
+                <!-- Początkowy przychód ciastek. Ulegnie on zmianie -->
+                0
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <!-- Obraz ciastka które reaguje na wciśnięcie myszy oraz jej puszczenie -->
+                <img id="bigCookie" src="images/cookie.png" onmousedown="CookieClick();" onmouseup="CookieRelese();" />
+            </p>
+        </div>
+    </section>
+    <div id="parent">
+        <!-- I've heard you like websites, so i put website in your website, so you can surf while you are surfing -->
+        <iframe id="frame" src="pages/info.html"></iframe>
+        <!-- Obramowanie iframe -->
+        <img id="leftbar" src="images/panelVertical.png">
+        <img id="rightbar" src="images/panelVertical.png">
+        <!-- Ustalanie wielkości elementów zależnie od wielkości wyświetlacza (okna przeglądarki) -->
+        <script>
+            document.getElementById('frame').style.height = document.documentElement.clientHeight - 50 + "px";
+            document.getElementById('frame').style.width = document.documentElement.clientWidth * 0.5 + "px";
+
+            document.getElementById('leftbar').style.height = document.documentElement.clientHeight + "px";
+            document.getElementById('rightbar').style.height = document.documentElement.clientHeight + "px";
+        </script>
+    </div>
+    <section class="right">
+        <!-- Lista możliwych zakupów -->
+        <ul>
+            <li><button id="granButton" onclick="BuyGran();">Kup Babcię</button>
+                <p id="grans">Ilość: 0 || Koszt: 100</p><br>
+            </li>
+            <li><button id="farmButton" onclick="BuyFarm();">Kup Farmę</button>
+                <p id="farms">Ilość: 0 || Koszt: 1000</p><br>
+            </li>
+            <li><button id="mineButton" onclick="BuyMine();">Kup Kopalnię</button>
+                <p id="mines">Ilość: 0 || Koszt: 5000</p><br>
+            </li>
+            <li><button id="factoryButton" onclick="BuyFactory();">Kup Fabrykę</button>
+                <p id="factories">Ilość: 0 || Koszt: 15000</p><br>
+            </li>
+        </ul>
+    </section>
+    <!-- Uruchamianie timera -->
+    <script>
+        setInterval(UpdateCookiesAmmount, 40);
+        setInterval(CalculateIncome, 1000);
+    </script>
+</body>
+
+</html>
